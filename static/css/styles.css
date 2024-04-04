@@ -2,22 +2,24 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 20px;
     padding: 0;
-    background-color: #1e2744;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(22,8,73,1) 100%);
 }
 
 p {
-    color:#dde1ff;
-    font-size: 16px;
+    color:#ffffff;
+    font-size: 20px;
 }
 
 h1, h2, h3 {
-    color: #dde1ff;
+    color: hsl(0, 0%, 82%);
+    font-weight: bolder;
+    font-size: 200%;
 }
 
 img {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200;
+    height: 200px;
     display: inline-block;
 
 }
