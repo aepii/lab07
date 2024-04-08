@@ -6,12 +6,21 @@
     <style>
         table {
             border-collapse: collapse;
-            margin: 20px auto;
+            margin: 10px auto;
         }
 
         th, td {
             border: 1px solid black;
             padding: 8px;
+        }
+
+        th:first-child,
+        td:first-child {
+            background-color: lightgray; 
+        }
+
+        tr:first-child th {
+            background-color: lightgray; 
         }
     </style>
 </head>
@@ -19,9 +28,9 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $number = $_POST["number"];
-    echo "<h2>Multiplication Table up to $number</h2>";
+    echo "<h2>Multiplication Table of $number</h2>";
     echo "<table>";
-    echo "<tr><th>*</th>";
+    echo "<tr><th>X</th>";
     for ($i = 1; $i <= $number; $i++) {
         echo "<th>$i</th>";
     }
