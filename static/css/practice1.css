@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 50px;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(175, 175, 214) 50%, rgba(2,0,36,1) 100%);
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    color: #dde1ff;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.box {
+    background-color: #070a1e;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sub-header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#sub-header a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#sub-header a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.emoji {
+    font-size: 24px;
+}
